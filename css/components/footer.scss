@@ -1,0 +1,67 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-container__github {
+    width: 188px;
+}
+
+.footer-container__rs-school a{
+  transition: 0.3s;
+  width: 188px;
+  // background-image: url('../../assets/svg/logo_rs_text.svg');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  height: 60px;
+
+}
+
+.footer-container__rs-school a:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    cursor: pointer;
+}
+// .footer-container__smm {
+//     width: 188px;
+//     height: 50px;
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 8px 0 0 0;
+// }
+
+// .smm-ico {
+//     background-size: contain;
+//     background-repeat: no-repeat;  
+//     transition: 0.3s;
+//     width: 32px;
+//     height: 32px;
+//     list-style-type: none;
+//     display: block;
+// }
+
+.svg-ico:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+      cursor: pointer;
+  }
+
+.smm__inst {
+    background-image: url('../assets/svg/inst.svg');
+  }
+
+.smm__fb {
+    background-image: url('../assets/svg/fb.svg');
+  }
+
+.smm__tw {
+    background-image: url('../assets/svg/tw.svg');
+  }
+
+.smm__pinterest {
+    background-image: url('../assets/svg/pinterest.svg');
+  }
+
+  

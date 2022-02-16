@@ -1,0 +1,189 @@
+@media (max-width: 1440px) {
+    
+}
+
+
+@media (max-width: 1200px) {
+
+  }
+
+@media (max-width: 1024px) {
+  }
+
+// ----------------------------------
+// --------------- 768px ------------
+// ----------------------------------
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+        font-weight: 400;
+    }
+
+    H2 {
+        font-size: 3.2rem;
+    }
+
+    p {
+        line-height: 2.4rem;
+    }
+
+// --------------- menu ----------
+
+    .header-and-main-container {
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .theme-btn {
+        margin-right: 25px;
+    }
+
+    .lang {
+        padding-right: 0;
+    }
+
+    .menu-container .burger {
+        display: flex;
+        margin-right: 45px;
+        z-index: 2;
+    }
+
+    .menu-container {
+                
+    }
+
+    .nav-opened {
+        right: 0px !important;
+    }
+
+    .nav {
+        position: absolute;
+        right: -768px;
+        top: 0px;
+        height: 100vh;
+        width: 80%;
+        z-index: 1;
+        background-color: black;
+        padding-top: 115px;
+        padding-left: 80px;
+        transition: 0.5s
+    }
+
+    .nav-list {
+        flex-direction: column;
+
+    }
+
+    .nav-link {
+        font-size: 3.5rem;
+        line-height: 7.3rem;
+        font-weight: 400px;
+        }
+    .nav-item {
+        padding-bottom: 15px;
+    }
+    // ------------- header -------------
+
+    header .container.header-container {
+        background: url('../assets/img/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: -5px -55px;
+        background-size: auto 620px;
+        height: 90px;
+    }
+
+    .container.container-bg-hero {
+            height: 500px;
+            background-size: auto 620px;
+            background-position: -5px -145px;
+    }
+
+
+    .logo {
+        margin-left: 40px;
+    }
+    .lang {
+        margin-right: 25px;
+    }
+
+// -------------- hero -----------------
+    main {
+        z-index: 0;
+    }
+
+    .hero.hero-container {
+        padding: 10px 0 10px 35px;
+        
+    }
+
+    .hero__section-title {
+        margin: 2px 0 0 0;
+        padding: 0 0 0 3px;
+    }
+    
+    .hero-container .hero-text {
+        padding: 30px 0 40px 5px;
+        width: 400px;
+    }
+
+    .hero-button {
+        margin-left: 4px;
+    }
+
+    // ---------- skills ------------
+
+    
+
+    // ---------- portfolio ------------
+    
+   
+    // ---------- video ------------
+
+    
+    // ---------- price ------------
+
+    
+    // ---------- contacts ------------
+
+    
+    // ---------- footer ------------
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container__github {
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 620px) {
+    .nav {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .hero-container .hero-text {
+        width: 90%;
+    }
+
+    .contacts-form {
+        width:100%
+    }
+
+    .contacts-form .contacts-form__inputs {
+        width: 80%;
+    }
+}
+
+// @media (max-width: 480px) {
+
+// }
+
+// @media (max-width: 320px) {
+
+// }

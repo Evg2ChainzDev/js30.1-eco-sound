@@ -1,0 +1,26 @@
+main {
+    height: calc(100vh - 120px);
+    background-image: url('../assets/img/solovey.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    // display: flex;
+    text-align: center;
+}
+
+.play-btn {
+    margin-top: 35vh;
+    background-image: url('../../assets/svg/play.svg');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    transition: 0.3s;
+    width: 70px;
+    height: 70px;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.pause {
+    background-image: url('../../assets/svg/pause.svg') !important
+}
